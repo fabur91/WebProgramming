@@ -16,15 +16,15 @@
         function fun2(arg) { return arg; }
 
         document.writeln( fun2() !== 1  );
-        // document.writeln( fun2() === undefined );
-        // document.writeln( fun2(42) === 42 );
-        //
-        // function noReturn()    { 1; }
-        // const noReturn2 = () => { 1; };
+        document.writeln( fun2() === undefined );
+        document.writeln( fun2(42) === 42 );
+
+        function noReturn()    { 1; }
+        const noReturn2 = () => { 1; };
         // const noReturn3 = () => 1;
         //
-        // document.writeln( noReturn() !== 1 );
-        // document.writeln( noReturn2() !== 1 );
+        document.writeln( noReturn() !== 1 );
+        document.writeln( noReturn2() !== 1 );
         // document.writeln( noReturn3() === 1 );
         //
         // const myfun = fun1;
